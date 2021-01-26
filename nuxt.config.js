@@ -1,6 +1,6 @@
 export default {
   env: {
-    // baseUrl: 'https://trusting-fog-55555.pktriot.net/api/',
+    baseUrl: 'https://trusting-fog-55555.pktriot.net/api/',
   },
 
   // server: {
@@ -17,14 +17,14 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: 'Prevaa Official' || '',
+    title: 'Official' || '',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/jpg', href: '/logo_prevaa.jpg' }
+      { rel: 'icon', type: 'image/jpg', href: '/logo.jpg' }
     ]
   },
   /*
@@ -32,9 +32,7 @@ export default {
   */
   css: [
     'ant-design-vue/dist/antd.css',
-    'static/font-web-site.css',
-    'static/font-customize.css',
-    'static/font-customize2.css',
+    'static/font.css',
   ],
   /*
   ** Plugins to load before mounting the App
@@ -92,7 +90,7 @@ export default {
   ** See https://axios.nuxtjs.org/options
   */
   axios: {
-    // baseURL: 'https://trusting-fog-5555.pktriot.net/api/',
+    baseURL: 'https://trusting-fog-5555.pktriot.net/api/',
   },
   /*
   ** Build configuration
